@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get("/UnjumbleIt", function () {
     return view("exercicios/UnjumbleIt");
 });
+
+// Route::get("/header", function () {
+//     return view("header");
+// });
+Route::view("/header", "header");
