@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <x-header></x-header>
+
     <h1>Unjumble It!</h1>
     <span id="object"></span> == <input type="text" id="response" />
     <input type="submit" onclick="toRespond()" value="to respond" />
