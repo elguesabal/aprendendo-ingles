@@ -13,15 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get("/UnjumbleIt", function () {
-    return view("exercicios/UnjumbleIt");
-});
-
-// Route::get("/header", function () {
-//     return view("header");
+// Route::get("/UnjumbleIt", function () {
+//     return view("exercises/UnjumbleIt");
 // });
-Route::view("/header", "header");
+Route::view("/UnjumbleIt", "exercises/UnjumbleIt");
