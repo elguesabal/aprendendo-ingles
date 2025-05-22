@@ -43,7 +43,7 @@ const verb = [
     "look"
 ];
 
-let word = chooseWord();
+let word;
 
 function chooseWord() {
     let words = [];
@@ -63,11 +63,24 @@ function scrambleWord(word) {
     return letters.join("");
 }
 
+function reload() {
+    word = chooseWord();
+    document.getElementById("word").textContent = scrambleWord(word);
+    document.getElementById("response").value = "";
+    // JA COMECA COM OS OBJECTS E VERBS MARCADO
+    // PROXIMO PASSO E VERIFICAR ERROS CASO TUDO ESTEJA DESMARCADO
+}
+
 document.getElementById("toRespond").addEventListener('click', () => {
     const iconClass = (document.getElementById("response").value == word) ? ["bi-hand-thumbs-up", "text-green-500"] : ["bi-hand-thumbs-down", "text-red-500"];
 
     document.getElementById("iconResult").classList.add(iconClass[0], iconClass[1]);
     document.getElementById("result").textContent = (document.getElementById("response").value == word) ? "Parabéns! Resposta certa!" : "Resposta errada!";
+    if (document.getElementById("response").value == word) reload();
+});
+
+document.getElementById("reload").addEventListener('click', () => {
+    reload();
 });
 
 document.getElementById("response").addEventListener("keydown", (event) => {
@@ -76,6 +89,7 @@ document.getElementById("response").addEventListener("keydown", (event) => {
 
     document.getElementById("iconResult").classList.add(iconClass[0], iconClass[1]);
     document.getElementById("result").textContent = (document.getElementById("response").value == word) ? "Parabéns! Resposta certa!" : "Resposta errada!";
+    if (document.getElementById("response").value == word) reload();
 });
 
-document.getElementById("word").textContent = scrambleWord(word);
+reload();
