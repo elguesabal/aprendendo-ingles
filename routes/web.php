@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::view("/", "/home");
 
-// Route::get("/UnjumbleIt", function () {
+// Study topics
+Route::view("studyTopics/PersonalPronouns", "studyTopics/PersonalPronouns");
+
+// Exercises
+
+// Route::get("exercises/UnjumbleIt", function () {
 //     return view("exercises/UnjumbleIt");
 // });
-Route::view("/UnjumbleIt", "exercises/UnjumbleIt");
+Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");

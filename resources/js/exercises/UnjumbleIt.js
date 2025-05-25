@@ -48,19 +48,20 @@ let word;
 function chooseWord() {
     let words = [];
 
-    words = (document.getElementById("object").checked) ? [...words, ...object] : words;
-    words = (document.getElementById("verb").checked) ? [...words, ...verb] : words;
+    if (document.getElementById("object").checked) object.forEach((letters) => words.push(letters));
+    if (document.getElementById("verb").checked) verb.forEach((letters) => words.push(letters));
     return (words[Math.floor(Math.random() * words.length)]);
 }
 
 function scrambleWord(word) {
+    if (word == undefined) return "";
     const letters = word.split("");
 
     for (let i = letters.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [letters[i], letters[j]] = [letters[j], letters[i]];
     }
-    return letters.join("");
+    return (letters.join(""));
 }
 
 function reload() {
@@ -72,15 +73,13 @@ function reload() {
 }
 
 document.getElementById("toRespond").addEventListener('click', () => {
+    if (word == undefined) return ; // TEM OUTRO EVENTO DISPARANDO O MODAL
+    console.log(word) 
     const iconClass = (document.getElementById("response").value == word) ? ["bi-hand-thumbs-up", "text-green-500"] : ["bi-hand-thumbs-down", "text-red-500"];
 
     document.getElementById("iconResult").classList.add(iconClass[0], iconClass[1]);
     document.getElementById("result").textContent = (document.getElementById("response").value == word) ? "Parabéns! Resposta certa!" : "Resposta errada!";
     if (document.getElementById("response").value == word) reload();
-});
-
-document.getElementById("reload").addEventListener('click', () => {
-    reload();
 });
 
 document.getElementById("response").addEventListener("keydown", (event) => {
@@ -90,6 +89,10 @@ document.getElementById("response").addEventListener("keydown", (event) => {
     document.getElementById("iconResult").classList.add(iconClass[0], iconClass[1]);
     document.getElementById("result").textContent = (document.getElementById("response").value == word) ? "Parabéns! Resposta certa!" : "Resposta errada!";
     if (document.getElementById("response").value == word) reload();
+});
+
+document.getElementById("reload").addEventListener('click', () => {
+    reload();
 });
 
 reload();

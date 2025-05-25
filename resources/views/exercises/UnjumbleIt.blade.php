@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +15,11 @@
         <h1 class="text-center text-3xl m-20">Unjumble It!</h1>
         <div class="flex justify-center gap-4 mb-7">
             <div>
-                <input type="checkbox" id="object" class="hidden peer" checked>
+                <input type="checkbox" id="object" class="hidden peer">
                 <label for="object" class="peer-checked:bg-green-600 peer-checked:text-white bg-white text-green-600 border border-green-600 px-4 py-2 rounded cursor-pointer transition">Object</label>
             </div>
             <div>
-                <input type="checkbox" id="verb" class="hidden peer" checked>
+                <input type="checkbox" id="verb" class="hidden peer">
                 <label for="verb" class="peer-checked:bg-green-600 peer-checked:text-white bg-white text-green-600 border border-green-600 px-4 py-2 rounded cursor-pointer transition">Verb</label>
             </div>
         </div>
@@ -32,5 +32,7 @@
         </div>
         <x-exercise-result idBtn="toRespond" idInput="response" />
     </main>
+
+    <x-footer/>
 </body>
 </html>
