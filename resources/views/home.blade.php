@@ -13,8 +13,8 @@
         <section class="bg-red-100 flex-1">
             <h1>Study topics</h1>
             <h2>Estude topicos da sua vontade escolhendo por secao</h2>
+            <p><a href="studyTopics/BasicVerbs">Basic verbs</a></p>
             <p><a href="studyTopics/PersonalPronouns">Personal pronouns</a></p>
-            <p><a href="">Topics 2</a></p>
             <p><a href="">Topics 3</a></p>
         </section>
         <section class="bg-green-100 flex-1">
