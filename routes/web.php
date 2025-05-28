@@ -17,7 +17,8 @@ Route::view("/", "/home");
 
 // Study topics
 Route::view("studyTopics/BasicVerbs", "studyTopics/BasicVerbs");
-Route::view("studyTopics/PersonalPronouns", "studyTopics/PersonalPronouns");
+Route::view("studyTopics/pronouns", "studyTopics/pronouns");
+Route::view("studyTopics/NegativeForm", "studyTopics/NegativeForm");
 
 // Exercises
 
