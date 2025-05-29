@@ -8,7 +8,6 @@
 </head>
 <body>
     <x-header/>
-
     <main style="background-color: rgb(17, 17, 19);">
         <h1 class="text-center text-5xl p-10" style="color: rgb(218, 218, 218);">site de <span class="underline decoration-wavy underline-offset-4 decoration-5" style="color: rgb(218, 255, 1); text-decoration-color: rgb(127, 74, 142);">ingles</span></h1>
         <article style="color: rgb(161, 161, 170);">
@@ -36,7 +35,6 @@
             </div>
         </article>
     </main>
-
     <x-footer/>
 </body>
 </html>
