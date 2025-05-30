@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::view("/", "/home");
 
-// Study topics
-Route::view("studyTopics/BasicVerbs", "studyTopics/BasicVerbs");
-Route::view("studyTopics/pronouns", "studyTopics/pronouns");
-Route::view("studyTopics/NegativeForm", "studyTopics/NegativeForm");
+// Study Topics
+Route::view("study/BasicVerbs", "study/BasicVerbs");
+Route::view("study/pronouns", "study/pronouns");
+Route::view("study/NegativeForm", "study/NegativeForm");
 
 // Exercises
 

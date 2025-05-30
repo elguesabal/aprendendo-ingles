@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite('resources/css/app.css')
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="bg-zinc-950 text-zinc-400">
         <article>
             <section>
                 <h1 class="text-3xl font-bold mb-2">Subject pronouns</h1>
@@ -17,45 +17,45 @@
                 <p>👉 Sempre colocamos o subject pronoun no começo da frase, antes do verbo: [Subject Pronoun] + [verbo] + ...</p>
             </section>
             <section>
-                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300">
-                    <thead class="bg-gray-100">
+                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
+                    <thead class="bg-gray-900">
                         <tr>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Inglês</th>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Português</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Português</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">I</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Eu</td>
+                            <td class="border border-gray-300 px-4 py-2">I</td>
+                            <td class="border border-gray-300 px-4 py-2">Eu</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Voçê</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">Voçê</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">He</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Ele</td>
+                            <td class="border border-gray-300 px-4 py-2">He</td>
+                            <td class="border border-gray-300 px-4 py-2">Ele</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">She</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">ela</td>
+                            <td class="border border-gray-300 px-4 py-2">She</td>
+                            <td class="border border-gray-300 px-4 py-2">ela</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">It</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Ele/ela (para coisas ou animais)</td>
+                            <td class="border border-gray-300 px-4 py-2">It</td>
+                            <td class="border border-gray-300 px-4 py-2">Ele/ela (para coisas ou animais)</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">We</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Nós</td>
+                            <td class="border border-gray-300 px-4 py-2">We</td>
+                            <td class="border border-gray-300 px-4 py-2">Nós</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Voçês</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">Voçês</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">They</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Eles/Elas</td>
+                            <td class="border border-gray-300 px-4 py-2">They</td>
+                            <td class="border border-gray-300 px-4 py-2">Eles/Elas</td>
                         </tr>
                     </tbody>
                 </table>
@@ -88,54 +88,54 @@
                 <p>Object pronouns são usados para indicar quem recebe a ação do verbo em uma frase.</p>
             </section>
             <section>
-                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300">
-                    <thead class="bg-gray-100">
+                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
+                    <thead class="bg-gray-900">
                         <tr>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Subject pronoun</th>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Object Pronoun</th>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Português</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Subject pronoun</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Object Pronoun</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Português</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">I</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">me</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">me/mim</td>
+                            <td class="border border-gray-300 px-4 py-2">I</td>
+                            <td class="border border-gray-300 px-4 py-2">me</td>
+                            <td class="border border-gray-300 px-4 py-2">me/mim</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">you</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">te/você/ti</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">you</td>
+                            <td class="border border-gray-300 px-4 py-2">te/você/ti</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">He</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">him</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">o/lhe/ele</td>
+                            <td class="border border-gray-300 px-4 py-2">He</td>
+                            <td class="border border-gray-300 px-4 py-2">him</td>
+                            <td class="border border-gray-300 px-4 py-2">o/lhe/ele</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">She</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">her</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">a/lhe/ela</td>
+                            <td class="border border-gray-300 px-4 py-2">She</td>
+                            <td class="border border-gray-300 px-4 py-2">her</td>
+                            <td class="border border-gray-300 px-4 py-2">a/lhe/ela</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">It</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">it</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">o/a/isso/aquilo</td>
+                            <td class="border border-gray-300 px-4 py-2">It</td>
+                            <td class="border border-gray-300 px-4 py-2">it</td>
+                            <td class="border border-gray-300 px-4 py-2">o/a/isso/aquilo</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">We</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">us</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">nos</td>
+                            <td class="border border-gray-300 px-4 py-2">We</td>
+                            <td class="border border-gray-300 px-4 py-2">us</td>
+                            <td class="border border-gray-300 px-4 py-2">nos</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">you</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">vos/voçês</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">you</td>
+                            <td class="border border-gray-300 px-4 py-2">vos/voçês</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">They</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Them</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">os/as/lhes</td>
+                            <td class="border border-gray-300 px-4 py-2">They</td>
+                            <td class="border border-gray-300 px-4 py-2">Them</td>
+                            <td class="border border-gray-300 px-4 py-2">os/as/lhes</td>
                         </tr>
                     </tbody>
                 </table>
@@ -169,45 +169,45 @@
                 <p>Em inglês, é a mesma ideia! Veja a tabela:</p>
             </section>
             <section>
-                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300">
-                    <thead class="bg-gray-100">
+                <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
+                    <thead class="bg-gray-900">
                         <tr>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Inglês</th>
-                            <th class="w-1/2 border border-gray-300 px-4 py-2 text-left text-center">Português</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
+                            <th class="w-1/2 border border-gray-300 px-4 py-2">Português</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">I</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Eu</td>
+                            <td class="border border-gray-300 px-4 py-2">I</td>
+                            <td class="border border-gray-300 px-4 py-2">Eu</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Voçê</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">Voçê</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">He</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Ele</td>
+                            <td class="border border-gray-300 px-4 py-2">He</td>
+                            <td class="border border-gray-300 px-4 py-2">Ele</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">She</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">ela</td>
+                            <td class="border border-gray-300 px-4 py-2">She</td>
+                            <td class="border border-gray-300 px-4 py-2">ela</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">It</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Ele/ela (para coisas ou animais)</td>
+                            <td class="border border-gray-300 px-4 py-2">It</td>
+                            <td class="border border-gray-300 px-4 py-2">Ele/ela (para coisas ou animais)</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">We</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Nós</td>
+                            <td class="border border-gray-300 px-4 py-2">We</td>
+                            <td class="border border-gray-300 px-4 py-2">Nós</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">You</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Voçês</td>
+                            <td class="border border-gray-300 px-4 py-2">You</td>
+                            <td class="border border-gray-300 px-4 py-2">Voçês</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-2 text-center">They</td>
-                            <td class="border border-gray-300 px-4 py-2 text-center">Eles/Elas</td>
+                            <td class="border border-gray-300 px-4 py-2">They</td>
+                            <td class="border border-gray-300 px-4 py-2">Eles/Elas</td>
                         </tr>
                     </tbody>
                 </table>
