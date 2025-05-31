@@ -8,16 +8,16 @@
 </head>
 <body>
     <x-header/>
-    <main class="bg-zinc-950 text-zinc-400">
+    <main class="bg-primary text-secondary">
         <section>
-            <h1 class="text-3xl font-bold mb-2 text-neutral-300">📌 O que é um verbo?</h1>
+            <h1 class="text-3xl font-bold mb-2 text-primary">📌 O que é um verbo?</h1>
             <p>Verbo é uma ação ou estado.</p>
             <p>Exemplos em português: ser, estar, ter, gostar, falar, comer...</p>
         </section>
         <section>
             <h2>To be (ser/estar)</h2>
-            <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
-                <thead class="bg-gray-900">
+            <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                <thead class="bg-secondary">
                     <tr>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Pronoun</th>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Verb to be</th>
@@ -55,8 +55,8 @@
         </section>
         <section>
             <h2>To have (ter)</h2>
-            <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
-                <thead class="bg-gray-900">
+            <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                <thead class="bg-secondary">
                     <tr>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Pronoun</th>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Verb to have</th>
@@ -90,8 +90,8 @@
         </section>
         <section>
             <h2>To like (gostar)</h2>
-            <table class="mx-auto table-fixed w-3/4 border-collapse border border-gray-300 text-center">
-                <thead class="bg-gray-900">
+            <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                <thead class="bg-secondary">
                     <tr>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Pronoun</th>
                         <th class="w-1/2 border border-gray-300 px-4 py-2">Verb to have</th>

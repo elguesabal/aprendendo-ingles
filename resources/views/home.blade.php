@@ -8,8 +8,8 @@
 </head>
 <body>
     <x-header/>
-    <main class="bg-zinc-950 text-zinc-400">
-        <h1 class="text-center text-5xl p-10 text-neutral-300">site de <span class="underline decoration-wavy underline-offset-4 decoration-5 text-lime-300 decoration-violet-500">ingles</span></h1>
+    <main class="bg-primary text-secondary">
+        <h1 class="text-center text-5xl p-10 text-neutral-300">site de <span class="underline decoration-wavy underline-offset-4 decoration-5 theme-tx-primary decoration-violet-500">ingles</span></h1>
         <article>
             <div class="flex space-x-10 px-6">
                 <div class="flex-1 pl-5 font-serif">
@@ -22,12 +22,12 @@
                 </div>
             </div>
             <div class="flex space-x-10 px-6 font-serif">
-                <section class="flex-1 rounded-3xl p-5 bg-gray-900">
+                <section class="flex-1 rounded-3xl p-5 bg-secondary">
                     <p><a href="study/BasicVerbs">Basic verbs</a></p>
                     <p><a href="study/pronouns">Pronouns</a></p>
                     <p><a href="study/NegativeForm">Negative form</a></p>
                 </section>
-                <section class="flex-1 rounded-3xl p-5 bg-gray-900">
+                <section class="flex-1 rounded-3xl p-5 bg-secondary">
                     <p><a href="exercises/UnjumbleIt">Unjumble It!</a> Pratique decifrando palavras embaralhadas</p>
                     <p><a href="#">Exercises 2</a></p>
                     <p><a href="#">Exercises 3</a></p>
