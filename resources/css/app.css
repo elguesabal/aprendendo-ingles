@@ -36,3 +36,62 @@
 .underline-color {
     text-decoration-color: rgb(127, 74, 142);
 }
+
+
+
+
+
+
+
+
+.theme-primary {
+    background-color: #eff0f3;
+}
+
+.theme-primary h1, h2, h3, button {
+    color: #0d0d0d;
+}
+
+.theme-primary p {
+    color: #2a2a2a;
+}
+
+.theme-primary button {
+    background-color: #ff8e3c;
+}
+
+.theme-primary th {
+    background-color: #fffffe;
+}
+
+.theme-primary a {
+    color: #ff8e3c;
+}
+
+
+
+
+
+.theme-secondary {
+    background-color: #fffffe;
+}
+
+.theme-secondary h1, h2, h3, button {
+    color: #0d0d0d;
+}
+
+.theme-secondary p {
+    color: #2a2a2a;
+}
+
+.theme-secondary button {
+    background-color: #ff8e3c;
+}
+
+.theme-secondary th {
+    background-color: #eff0f3;
+}
+
+.theme-secondary a {
+    color: #ff8e3c;
+}

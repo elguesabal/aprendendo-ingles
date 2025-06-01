@@ -8,11 +8,9 @@
 </head>
 <body>
     <x-header/>
-
     <main>
 
     </main>
-
     <x-footer/>
 </body>
 </html>
