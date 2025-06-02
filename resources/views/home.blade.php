@@ -8,34 +8,32 @@
 </head>
 <body>
     <x-header/>
-    <main class="bg-primary text-secondary">
-        <h1 class="text-center text-5xl p-10">site de <span class="underline decoration-wavy underline-offset-4 decoration-5 theme-tx-primary decoration-violet-500">ingles</span></h1>
-        <article>
-            <div class="flex space-x-10 px-6">
-                <div class="flex-1 pl-5 font-serif">
-                    <h2>Study topics</h2>
-                    <h3>Estude topicos da sua vontade escolhendo por secao</h3>
-                </div>
-                <div class="flex-1 pl-5">
-                    <h2>Exercises</h2>
-                    <h3>Treine seus conhecimentos fazendo exercicios</h3>
-                </div>
-            </div>
-            <div class="flex space-x-10 px-6 font-serif">
-                <section class="flex-1 rounded-3xl p-5 bg-secondary">
-                    <p><a href="study/basicVerbs">Basic verbs</a></p>
-                    <p><a href="study/pronouns">Pronouns</a></p>
-                    <p><a href="study/negativeForm">Negative form</a></p>
-                    <p><a href="study/negationAuxiliary">Negation Auxiliary</a></p>
+    <main>
+        <h1 class="text-center text-5xl p-10">site de <span class="underline decoration-wavy underline-offset-4 decoration-5 theme-tx-primary decoration-orange-500">ingles</span></h1>
+        <div class="flex justify-evenly flex-col md:flex-row theme-primary py-10">
+            <article class="w-1/3 theme-secondary p-5 rounded-3xl">
+                <h2>Study topics</h2>
+                <h3>Estude topicos da sua vontade escolhendo por secao</h3>
+                <section class="flex flex-col space-y-3 p-5">
+                    <a class="text-center border border-3 px-2 py-1" href="study/basicVerbs">Basic verbs</a>
+                    <a class="text-center border border-3 px-2 py-1" href="study/pronouns">Pronouns</a>
+                    <a class="text-center border border-3 px-2 py-1" href="study/negativeForm">Negative form</a>
+                    <a class="text-center border border-3 px-2 py-1" href="study/negationAuxiliary">Negation Auxiliary</a>
                 </section>
-                <section class="flex-1 rounded-3xl p-5 bg-secondary">
-                    <p><a href="exercises/UnjumbleIt">Unjumble It!</a> Pratique decifrando palavras embaralhadas</p>
-                    <p><a href="#">Exercises 2</a></p>
-                    <p><a href="#">Exercises 3</a></p>
+            </article>
+            <article class="w-1/3 theme-secondary p-5 rounded-3xl">
+                <h2>Exercises</h2>
+                <h3>Treine seus conhecimentos fazendo exercicios</h3>
+                <section class="flex flex-col space-y-3 p-5">
+                    <a class="text-center border border-3 px-2 py-1" href="exercises/UnjumbleIt">Unjumble It!</a>
+                    <a class="text-center border border-3 px-2 py-1" href="#">Exercises 2</a>
+                    <a class="text-center border border-3 px-2 py-1" href="#">Exercises 3</a>
                 </section>
-            </div>
-        </article>
+            </article>
+        </div>
     </main>
     <x-footer/>
 </body>
 </html>
+
+<!-- https://www.happyhues.co/palettes/9 -->
