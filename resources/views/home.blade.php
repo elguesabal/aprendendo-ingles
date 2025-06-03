@@ -35,5 +35,4 @@
     <x-footer/>
 </body>
 </html>
-
 <!-- https://www.happyhues.co/palettes/9 -->
