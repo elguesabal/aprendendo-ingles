@@ -74,7 +74,6 @@ function reload() {
 
 document.getElementById("toRespond").addEventListener('click', () => {
     if (word == undefined) return ; // TEM OUTRO EVENTO DISPARANDO O MODAL
-    console.log(word) 
     const iconClass = (document.getElementById("response").value == word) ? ["bi-hand-thumbs-up", "text-green-500"] : ["bi-hand-thumbs-down", "text-red-500"];
 
     document.getElementById("iconResult").classList.add(iconClass[0], iconClass[1]);
@@ -91,7 +90,7 @@ document.getElementById("response").addEventListener("keydown", (event) => {
     if (document.getElementById("response").value == word) reload();
 });
 
-document.getElementById("reload").addEventListener('click', () => {
+document.getElementById("reload").addEventListener("click", () => {
     reload();
 });
 
