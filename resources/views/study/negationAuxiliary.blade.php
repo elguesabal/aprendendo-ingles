@@ -9,7 +9,7 @@
 <body>
     <x-header/>
     <main>
-        <h1 class="text-3xl font-bold mb-10 text-center">Negation Auxiliary</h1>
+        <h1 class="text-3xl font-bold mb-10 text-center">Negation auxiliary</h1>
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto mb-10">
                 <section class="my-5">

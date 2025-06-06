@@ -20,10 +20,7 @@ Route::view("study/basicVerbs", "study/basicVerbs");
 Route::view("study/pronouns", "study/pronouns");
 Route::view("study/negativeForm", "study/negativeForm");
 Route::view("study/negationAuxiliary", "study/negationAuxiliary");
+Route::view("study/verbConjugation", "study/verbConjugation");
 
 // Exercises
-
-// Route::get("exercises/UnjumbleIt", function () {
-//     return view("exercises/UnjumbleIt");
-// });
 Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");

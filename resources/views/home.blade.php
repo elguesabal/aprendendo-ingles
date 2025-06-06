@@ -18,7 +18,8 @@
                     <a class="text-center border-3 px-2 py-1" href="study/basicVerbs">Basic verbs</a>
                     <a class="text-center border-3 px-2 py-1" href="study/pronouns">Pronouns</a>
                     <a class="text-center border-3 px-2 py-1" href="study/negativeForm">Negative form</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/negationAuxiliary">Negation Auxiliary</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/negationAuxiliary">Negation auxiliary</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/verbConjugation">Verb conjugation</a>
                 </section>
             </article>
             <article class="w-1/3 theme-secondary p-5 rounded-3xl">
