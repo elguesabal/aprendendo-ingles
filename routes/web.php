@@ -21,6 +21,9 @@ Route::view("study/pronouns", "study/pronouns");
 Route::view("study/negativeForm", "study/negativeForm");
 Route::view("study/negationAuxiliary", "study/negationAuxiliary");
 Route::view("study/verbConjugation", "study/verbConjugation");
+Route::view("study/plural", "study/plural");
+Route::view("study/interrogativeWords", "study/interrogativeWords");
+Route::view("study/alphabetPronunciation", "study/alphabetPronunciation");
 
 // Exercises
 Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    @vite('resources/css/app.css')
+    @vite('resources/css/app.css') -->
+    <x-headMeta/>
 </head>
 <body>
     <x-header/>
@@ -20,6 +21,9 @@
                     <a class="text-center border-3 px-2 py-1" href="study/negativeForm">Negative form</a>
                     <a class="text-center border-3 px-2 py-1" href="study/negationAuxiliary">Negation auxiliary</a>
                     <a class="text-center border-3 px-2 py-1" href="study/verbConjugation">Verb conjugation</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/plural">Plural</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/interrogativeWords">Interrogative words</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/alphabetPronunciation">Alphabet pronunciation</a>
                 </section>
             </article>
             <article class="w-1/3 theme-secondary p-5 rounded-3xl">
