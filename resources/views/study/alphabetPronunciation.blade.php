@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    @vite('resources/css/app.css')
+    <x-headMeta/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    @vite('resources/js/alphabetSound.js')
 </head>
 <body>
     <x-header/>
@@ -25,132 +24,132 @@
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">A</td>
                                 <td class="border border-gray-300 px-4 py-2">êi</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="a" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">B</td>
                                 <td class="border border-gray-300 px-4 py-2">bí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="b" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">C</td>
                                 <td class="border border-gray-300 px-4 py-2">cí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="c" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">D</td>
                                 <td class="border border-gray-300 px-4 py-2">dí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="d" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">E</td>
                                 <td class="border border-gray-300 px-4 py-2">í</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="e" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">F</td>
                                 <td class="border border-gray-300 px-4 py-2">éf</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="f" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">G</td>
                                 <td class="border border-gray-300 px-4 py-2">dgí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="g" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">H</td>
                                 <td class="border border-gray-300 px-4 py-2">êitch</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="h" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">I</td>
                                 <td class="border border-gray-300 px-4 py-2">ái</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="i" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">J</td>
                                 <td class="border border-gray-300 px-4 py-2">djêi</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="j" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">K</td>
                                 <td class="border border-gray-300 px-4 py-2">kêi</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="k" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">L</td>
                                 <td class="border border-gray-300 px-4 py-2">él</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="l" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">M</td>
                                 <td class="border border-gray-300 px-4 py-2">êm</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="m" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">N</td>
                                 <td class="border border-gray-300 px-4 py-2">ên</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="n" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">O</td>
                                 <td class="border border-gray-300 px-4 py-2">ôu</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="o" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">P</td>
                                 <td class="border border-gray-300 px-4 py-2">pí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="p" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">Q</td>
                                 <td class="border border-gray-300 px-4 py-2">kíu</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="q" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">R</td>
                                 <td class="border border-gray-300 px-4 py-2">ár</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="r" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">S</td>
                                 <td class="border border-gray-300 px-4 py-2">és</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="s" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">T</td>
                                 <td class="border border-gray-300 px-4 py-2">tí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="t" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">U</td>
                                 <td class="border border-gray-300 px-4 py-2">iúl</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="u" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">V</td>
                                 <td class="border border-gray-300 px-4 py-2">ví</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="v" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">W</td>
                                 <td class="border border-gray-300 px-4 py-2">dâbliu</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="w" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">X</td>
                                 <td class="border border-gray-300 px-4 py-2">éks</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="x" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">Y</td>
                                 <td class="border border-gray-300 px-4 py-2">uái</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="y" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                             <tr class="hover:bg-gray-50">
                                 <td class="border border-gray-300 px-4 py-2">Z</td>
                                 <td class="border border-gray-300 px-4 py-2">zí</td>
-                                <td class="border border-gray-300 px-4 py-2"></td>
+                                <td id="z" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
                             </tr>
                         </tbody>
                     </table>
