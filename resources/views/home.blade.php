@@ -20,6 +20,7 @@
                     <a class="text-center border-3 px-2 py-1" href="study/plural">Plural</a>
                     <a class="text-center border-3 px-2 py-1" href="study/interrogativeWords">Interrogative words</a>
                     <a class="text-center border-3 px-2 py-1" href="study/alphabetPronunciation">Alphabet pronunciation</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/prepositionPlace">Preposition of place</a>
                 </section>
             </article>
             <article class="w-1/3 theme-secondary p-5 rounded-3xl">
