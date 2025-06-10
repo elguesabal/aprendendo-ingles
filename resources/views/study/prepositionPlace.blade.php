@@ -63,12 +63,12 @@
             <div class="theme-primary py-10">
                 <div class="flex flex-col w-3/4 mx-auto">
                     <section class="my-5">
-                        <h2 class="text-3xl font-bold mb-2">between → </h2>
-                        <p></p>
+                        <h2 class="text-3xl font-bold mb-2">between → entre</h2>
+                        <p>Usamos para indicar que algo está entre duas coisas.</p>
                         <h2 class="text-lg font-bold mb-2">📌 Exemplos:</h2>
                         <ul class="list-disc pl-6">
-                            <li></li>
-                            <li></li>
+                            <li>There is piece of paper between two books.</li>
+                            <li>She weighs between 55 and 60 kilograms.</li>
                         </ul>
                     </section>
                 </div>
@@ -89,12 +89,12 @@
             <div class="theme-primary py-10">
                 <div class="flex flex-col w-3/4 mx-auto">
                     <section class="my-5">
-                        <h2 class="text-3xl font-bold mb-2">next to → </h2>
-                        <p></p>
+                        <h2 class="text-3xl font-bold mb-2">next to → ao lado de</h2>
+                        <p>Usamos para indicar que algo está ao lado.</p>
                         <h2 class="text-lg font-bold mb-2">📌 Exemplos:</h2>
                         <ul class="list-disc pl-6">
-                            <li></li>
-                            <li></li>
+                            <li>The door next to window. ??????</li>
+                            <li>She sat next to me.</li>
                         </ul>
                     </section>
                 </div>
@@ -102,12 +102,12 @@
             <div class="theme-secondary py-10">
                 <div class="flex flex-col w-3/4 mx-auto">
                     <section class="my-5">
-                        <h2 class="text-3xl font-bold mb-2">near → </h2>
-                        <p></p>
+                        <h2 class="text-3xl font-bold mb-2">near → perto</h2>
+                        <p>Usamos para indicar que algo está perto.</p>
                         <h2 class="text-lg font-bold mb-2">📌 Exemplos:</h2>
                         <ul class="list-disc pl-6">
-                            <li></li>
-                            <li></li>
+                            <li>The library is near my house.</li>
+                            <li>She lives near here.</li>
                         </ul>
                     </section>
                 </div>
@@ -115,12 +115,12 @@
             <div class="theme-primary py-10">
                 <div class="flex flex-col w-3/4 mx-auto">
                     <section class="my-5">
-                        <h2 class="text-3xl font-bold mb-2">far → </h2>
-                        <p></p>
+                        <h2 class="text-3xl font-bold mb-2">far → longe</h2>
+                        <p>Usamos para indicar que algo está longe.</p>
                         <h2 class="text-lg font-bold mb-2">📌 Exemplos:</h2>
                         <ul class="list-disc pl-6">
-                            <li></li>
-                            <li></li>
+                            <li>She live far from here.</li>
+                            <li>Italy is far from Brasil.</li>
                         </ul>
                     </section>
                 </div>
