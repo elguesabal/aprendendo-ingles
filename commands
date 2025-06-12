@@ -11,3 +11,5 @@ npm install
 cp .env.example .env
 php artisan key:generate
 npm run dev -- --host 0.0.0.0 & php artisan serve --host=0.0.0.0 --port=8000
+
+O ERRO ESTA NA NOMECLATURA DOS ARQUIVOS
