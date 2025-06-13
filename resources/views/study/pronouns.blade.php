@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <x-headMeta/>
+    <x-head-meta/>
 </head>
 <body>
     <x-header/>

@@ -16,15 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::view("/", "/home");
 
 // Study Topics
-Route::view("study/basicVerbs", "study/basicVerbs");
+Route::view("study/basic-verbs", "study/basic-verbs");
 Route::view("study/pronouns", "study/pronouns");
-Route::view("study/negativeForm", "study/negativeForm");
-Route::view("study/negationAuxiliary", "study/negationAuxiliary");
-Route::view("study/verbConjugation", "study/verbConjugation");
+Route::view("study/negative-form", "study/negative-form");
+Route::view("study/negation-auxiliary", "study/negation-auxiliary");
+Route::view("study/verb-conjugation", "study/verb-conjugation");
 Route::view("study/plural", "study/plural");
-Route::view("study/interrogativeWords", "study/interrogativeWords");
-Route::view("study/alphabetPronunciation", "study/alphabetPronunciation");
-Route::view("study/prepositionPlace", "study/prepositionPlace");
+Route::view("study/interrogative-words", "study/interrogative-words");
+Route::view("study/alphabet-pronunciation", "study/alphabet-pronunciation");
+Route::view("study/preposition-place", "study/preposition-place");
 
 // Exercises
 Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");

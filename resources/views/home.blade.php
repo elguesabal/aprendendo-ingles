@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <x-headMeta/>
+    <x-head-meta/>
 </head>
 <body>
     <x-header/>
@@ -12,15 +12,15 @@
                 <h2>Study topics</h2>
                 <h3>Estude topicos da sua vontade escolhendo por secao</h3>
                 <section class="flex flex-col space-y-3 p-5">
-                    <a class="text-center border-3 px-2 py-1" href="study/basicVerbs">Basic verbs</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/basic-verbs">Basic verbs</a>
                     <a class="text-center border-3 px-2 py-1" href="study/pronouns">Pronouns</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/negativeForm">Negative form</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/negationAuxiliary">Negation auxiliary</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/verbConjugation">Verb conjugation</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/negative-form">Negative form</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/negation-auxiliary">Negation auxiliary</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/verb-conjugation">Verb conjugation</a>
                     <a class="text-center border-3 px-2 py-1" href="study/plural">Plural</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/interrogativeWords">Interrogative words</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/alphabetPronunciation">Alphabet pronunciation</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/prepositionPlace">Preposition of place</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/interrogative-words">Interrogative words</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/alphabet-pronunciation">Alphabet pronunciation</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/preposition-place">Preposition of place</a>
                 </section>
             </article>
             <article class="w-1/3 theme-secondary p-5 rounded-3xl">
