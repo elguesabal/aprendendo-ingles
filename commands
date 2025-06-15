@@ -1,3 +1,4 @@
+// RODANDO NO ubuntu:22.04
 apt update && apt upgrade -y
 apt install -y git curl unzip zip php php-cli php-mbstring php-xml php-bcmath php-curl php-mysql php-zip php-tokenizer php-common php-mysql php-pgsql php-sqlite3 php-gd php-intl php-xdebug php-soap php-readline php-opcache php-dom php-fileinfo php-mbstring php-pdo php-json php-xml php-mysql mysql-client nodejs npm
 curl -sS https://getcomposer.org/installer | php
