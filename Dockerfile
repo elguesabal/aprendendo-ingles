@@ -28,6 +28,12 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Instala as dependências do Laravel
 RUN composer install --no-dev --optimize-autoloader
 
+# Copia o .env de exemplo como .env real
+RUN cp .env.example .env
+
+# Gera a chave da aplicação
+RUN php artisan key:generate
+
 # Permissões para o Laravel
 RUN chown -R www-data:www-data storage bootstrap/cache
 
