@@ -4,12 +4,11 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 git clone https://github.com/elguesabal/aprendendo-ingles.git
 cd aprendendo-ingles
-composer install
 curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 apt install -y nodejs
 npm install
+composer install
 cp .env.example .env
 php artisan key:generate
+// em producao devo rodar "npm run buil" e nao rodar "npm run dev -- --host 0.0.0.0"
 npm run dev -- --host 0.0.0.0 & php artisan serve --host=0.0.0.0 --port=8000
-
-O ERRO ESTA NA NOMECLATURA DOS ARQUIVOS
