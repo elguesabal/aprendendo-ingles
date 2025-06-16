@@ -21,5 +21,5 @@ export default defineConfig({
         // origin: 'https://aprendendo-ingles.onrender.com/',
         port: 5173,
     },
-    base: 'https://aprendendo-ingles.onrender.com/build/',
+    base: '/build/',
 });
