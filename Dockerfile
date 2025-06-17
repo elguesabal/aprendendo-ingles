@@ -37,6 +37,10 @@ RUN php artisan key:generate
 # Permissões para o Laravel
 RUN chown -R www-data:www-data storage bootstrap/cache
 
+RUN php artisan config:cache
+RUN php artisan route:clear
+RUN php artisan view:clear
+
 # Expõe a porta padrão do Apache
 EXPOSE 80
 
