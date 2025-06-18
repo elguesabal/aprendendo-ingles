@@ -10,7 +10,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto mb-10">
                 <section class="my-5">
-                    <h2 class="text-3xl font-bold mb-2">🛠️ O que são auxiliares de negação?</h2>
+                    <h2 class="text-3xl font-bold mb-2">O que são auxiliares de negação?</h2>
                     <p>São palavras que ajudam a negar uma frase.</p>
                     <p>Em inglês, você não pode simplesmente colocar "not" depois do verbo como em português.</p>
                     <p>Você precisa de um verbo auxiliar (helping verb) para isso.</p>
@@ -64,7 +64,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples com "do not" / "don't" (para I, you, we, they):</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples com "do not" / "don't" (para I, you, we, they):</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>I don't like tea.</strong> -> Eu não gosto de chá.</li>
                         <li><strong>They dont't play soccer.</strong> -> Eles não jogam futebol.</li>
@@ -72,7 +72,7 @@
                     </ul>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples com "does not" / "doesn't" (para he, she, it):</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples com "does not" / "doesn't" (para he, she, it):</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>.</strong>He doesn't work here. -> Ele não trabalha aqui.</li>
                         <li><strong>She doens't like coffe.</strong> -> Ela não gosta de café.</li>
@@ -80,10 +80,10 @@
                     </ul>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🚨 Importante:</h3>
+                    <h3 class="text-lg font-bold mb-2">Importante:</h3>
                     <p>Quando você usa doesn’t, o verbo principal volta para a forma base (sem "s").</p>
-                    <p>Errado: ❌ She doesn’t likes chocolate.</p>
-                    <p>Certo: ✅ She doesn’t like chocolate.</p>
+                    <p>Errado: She doesn’t likes chocolate.</p>
+                    <p>Certo: She doesn’t like chocolate.</p>
                 </section>
             </div>
         </article>

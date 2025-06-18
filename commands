@@ -11,13 +11,8 @@ npm install
 composer install
 cp .env.example .env
 php artisan key:generate
-// em producao devo rodar "npm run buil" e nao rodar "npm run dev -- --host 0.0.0.0"
-npm run dev -- --host 0.0.0.0 & php artisan serve --host=0.0.0.0 --port=8000
-
-
-
-
 php artisan config:cache
 php artisan route:clear
 php artisan view:clear
-TESTAR ISSO DPS SE NAO DER CERTO
+// em producao devo rodar "npm run buil" e nao rodar "npm run dev -- --host 0.0.0.0"
+npm run dev -- --host 0.0.0.0 & php artisan serve --host=0.0.0.0 --port=8000

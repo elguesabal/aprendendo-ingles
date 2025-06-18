@@ -10,7 +10,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-3xl font-bold mb-2">🟦 O que são interrogative words?</h2>
+                    <h2 class="text-3xl font-bold mb-2">O que são interrogative words?</h2>
                     <p>As interrogative words (ou question words) são palavras usadas para fazer perguntas.</p>
                     <p>Elas geralmente vêm no início da frase e ajudam a indicar o tipo de informação que você quer saber.</p>
                 </section>
@@ -19,7 +19,7 @@
         <article class="theme-secondary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-2xl">🧠 As principais interrogative words:</h2>
+                    <h2 class="text-2xl">As principais interrogative words:</h2>
                     <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
@@ -68,7 +68,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h2 class="text-2xl">🔹 Outras combinações com how:</h2>
+                    <h2 class="text-2xl">Outras combinações com how:</h2>
                     <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
@@ -111,7 +111,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-lg font-bold mb-2">✅ Estrutura da pergunta com interrogative word:</h2>
+                    <h2 class="text-lg font-bold mb-2">Estrutura da pergunta com interrogative word:</h2>
                     <p>Interrogative + auxiliar + sujeito + verbo + complemento?</p>
                     <ul class="list-disc pl-6">
                         <li>Whant do you want?</li>
@@ -124,7 +124,7 @@
         <article class="theme-secondary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-lg font-bold mb-2">🧠 Dica rápida para verbos no presente:</h2>
+                    <h2 class="text-lg font-bold mb-2">Dica rápida para verbos no presente:</h2>
                     <ul class="list-disc pl-6">
                         <li><strong>What is this?</strong> -> O que é isso?</li>
                         <li><strong>Where are you from?</strong> -> De onde voçê é?</li>

@@ -17,9 +17,9 @@ export default defineConfig({
     server: {
         cors: true,
         host: '0.0.0.0',
-        // origin: 'http://localhost:5173',
+        origin: 'http://localhost:5173',
         // origin: 'https://aprendendo-ingles.onrender.com/',
         port: 5173,
     },
-    base: '/build/',
+    // base: '/build/',
 });

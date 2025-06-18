@@ -10,7 +10,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto mb-10">
                 <section class="my-5">
-                    <h2 class="text-3xl font-bold mb-2">🧠 O que é “conjugar” um verbo?</h2>
+                    <h2 class="text-3xl font-bold mb-2">O que é “conjugar” um verbo?</h2>
                     <p>É adaptar o verbo de acordo com a pessoa do sujeito (I, you, he, etc.) e o tempo verbal (presente, passado, futuro...).</p>
                 </section>
                 <section class="my-5">
@@ -54,7 +54,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples:</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>I play Dota 2.</strong> -> Eu jogo Dota 2.</li>
                         <li><strong>He writes books.</strong> -> Ele escreve livros.</li>
@@ -66,7 +66,7 @@
         <article class="theme-secondary py-10">
             <div class="flex flex-col w-3/4 mx-auto mb-10">
                 <section class="my-5">
-                    <h2 class="text-3xl font-bold mb-2">🔴 Agora, veja a forma negativa:</h2>
+                    <h2 class="text-3xl font-bold mb-2">Agora, veja a forma negativa:</h2>
                     <p>Usamos do not ou does not + verbo (sem o -s).</p>
                 </section>
                 <section class="my-5">
@@ -110,7 +110,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples:</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>I don’t play Dota 2.</strong> -> Eu não jogo Dota 2.</li>
                         <li><strong>He doesn’t write books.</strong> -> Ele não escreve livros.</li>
@@ -122,7 +122,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto mb-10">
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">📌 Regras:</h3>
+                    <h3 class="text-lg font-bold mb-2">Regras:</h3>
                     <ul class="list-disc pl-6">
                         <li>Com he / she / it, adicionamos "s" ao verbo (works, plays, eats...).</li>
                         <li>Com os outros, o verbo fica normal na afirmativa.</li>

@@ -10,7 +10,7 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-3xl font-bold mb-2">📌 O que é um verbo?</h2>
+                    <h2 class="text-3xl font-bold mb-2">O que é um verbo?</h2>
                     <p>Verbo é uma ação ou estado.</p>
                     <p>Exemplos em português: ser, estar, ter, gostar, falar, comer...</p>
                 </section>
@@ -94,7 +94,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p>⚠️ Atenção: só muda para has no he / she / it.</p>
+                    <p>Atenção: só muda para has no he / she / it.</p>
                 </section>
             </div>
         </article>
@@ -133,14 +133,14 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p>⚠️ Acrescenta -s no final com he / she / it → "likes".</p>
+                    <p>Acrescenta -s no final com he / she / it → "likes".</p>
                 </section>
             </div>
         </article>
         <article class="theme-primary py-10">
             <div class="flex flex-col w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-lg font-bold mb-2">🧠 Dica rápida para verbos no presente:</h2>
+                    <h2 class="text-lg font-bold mb-2">Dica rápida para verbos no presente:</h2>
                     <ul class="list-disc pl-6">
                         <li>Com <strong>i, you, we, they</strong> -> verbo normal (sem s).</li>
                         <li>Com <strong>he, she, it</strong> -> verbo + s.</li>

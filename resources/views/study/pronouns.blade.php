@@ -12,8 +12,8 @@
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Subject pronouns</h2>
                     <p>Subject pronouns (pronomes pessoais sujeito) são palavras que usamos para substituir o nome da pessoa, animal ou coisa que faz a ação da frase.</p>
-                    <p>👉 Em português, são palavras como: eu, você, ele, ela, nós, eles...</p>
-                    <p>👉 Sempre colocamos o subject pronoun no começo da frase, antes do verbo: [Subject Pronoun] + [verbo] + ...</p>
+                    <p>Em português, são palavras como: eu, você, ele, ela, nós, eles...</p>
+                    <p>Sempre colocamos o subject pronoun no começo da frase, antes do verbo: [Subject Pronoun] + [verbo] + ...</p>
                 </section>
                 <section class="my-5">
                     <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
@@ -60,7 +60,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🧠 Dicas importantes:</h3>
+                    <h3 class="text-lg font-bold mb-2">Dicas importantes:</h3>
                     <ul class="list-disc pl-6">
                         <li>"I" (eu) sempre com letra maiúscula, mesmo no meio da frase.</li>
                         <li>"It" é usado para coisas, animais ou ideias, quando não sabemos o sexo (gênero).</li>
@@ -68,7 +68,7 @@
                     </ul>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples:</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>I am happy.</strong> -> Eu estou feliz.</li>
                         <li><strong>You are nice.</strong> -> Você é legal.</li>
@@ -136,7 +136,7 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples:</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>I am happy.</strong> -> Eu estou feliz.</li>
                         <li><strong>You are my friend.</strong> -> Voçê é meu amigo.</li>
@@ -209,14 +209,14 @@
                     </table>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🧠 Dicas importantes:</h3>
+                    <h3 class="text-lg font-bold mb-2">Dicas importantes:</h3>
                     <ul class="list-disc pl-6">
                         <li>Subject pronouns fazem a ação e object pronouns recebem a ação.</li>
                         <li>Os object pronouns geralmente aparecem depois do verbo ou de uma preposição.</li>
                     </ul>
                 </section>
                 <section class="my-5">
-                    <h3 class="text-lg font-bold mb-2">🟢 Exemplos de frases simples:</h3>
+                    <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
                         <li><strong>She called me last night.</strong> -> Ela me ligou ontem à noite.</li>
                         <li><strong>I saw you at the park.</strong> -> Eu te vi no parque.</li>
