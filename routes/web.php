@@ -25,6 +25,7 @@ Route::view("study/plural", "study/plural");
 Route::view("study/interrogative-words", "study/interrogative-words");
 Route::view("study/alphabet-pronunciation", "study/alphabet-pronunciation");
 Route::view("study/preposition-place", "study/preposition-place");
+Route::view("study/numbers", "study/numbers");
 
 // Exercises
 Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");
