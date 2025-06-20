@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CWVmMBLi.css",
+    "file": "assets/app-Dx1mW45S.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -14,6 +14,18 @@
     "file": "assets/UnjumbleIt-B7WdirCe.js",
     "name": "UnjumbleIt",
     "src": "resources/js/exercises/UnjumbleIt.js",
+    "isEntry": true
+  },
+  "resources/js/study/alphabetSound.js": {
+    "file": "assets/alphabetSound-DS_kiarB.js",
+    "name": "alphabetSound",
+    "src": "resources/js/study/alphabetSound.js",
+    "isEntry": true
+  },
+  "resources/js/study/numbers.js": {
+    "file": "assets/numbers-MEnvUg85.js",
+    "name": "numbers",
+    "src": "resources/js/study/numbers.js",
     "isEntry": true
   }
 }

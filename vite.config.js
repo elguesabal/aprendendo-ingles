@@ -8,7 +8,9 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
-                'resources/js/exercises/UnjumbleIt.js'
+                'resources/js/exercises/UnjumbleIt.js',
+                'resources/js/study/alphabetSound.js',
+                'resources/js/study/numbers.js'
             ],
             refresh: true,
         }),
@@ -18,8 +20,6 @@ export default defineConfig({
         cors: true,
         host: '0.0.0.0',
         origin: 'http://localhost:5173',
-        // origin: 'https://aprendendo-ingles.onrender.com/',
         port: 5173,
     },
-    // base: '/build/',
 });

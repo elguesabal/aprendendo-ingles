@@ -3,7 +3,11 @@
 <head>
     <x-head-meta/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    @vite('resources/js/alphabetSound.js')
+    @env('local')
+        @vite('resources/js/study/alphabetSound.js')
+    @else
+        <link rel="stylesheet" href="{{ secure_asset('build/assets/alphabetSound-DS_kiarB.js') }}">
+    @endenv
 </head>
 <body>
     <x-header/>

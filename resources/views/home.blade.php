@@ -7,8 +7,8 @@
     <x-header/>
     <main>
         <h1 class="text-center text-5xl p-10">site de <span class="underline decoration-wavy underline-offset-4 decoration-5 theme-tx-primary decoration-orange-500">ingles</span></h1>
-        <div class="flex justify-evenly flex-col md:flex-row theme-primary py-10">
-            <article class="w-1/3 theme-secondary p-5 rounded-3xl">
+        <div class="theme-primary flex justify-evenly flex-col md:flex-row items-center md:items-stretch py-10 space-y-6 md:space-y-0">
+            <article class="w-2/3 md:w-1/3 theme-secondary p-5 rounded-3xl">
                 <h2>Study topics</h2>
                 <h3>Estude topicos da sua vontade escolhendo por secao</h3>
                 <section class="flex flex-col space-y-3 p-5">
@@ -24,7 +24,7 @@
                     <a class="text-center border-3 px-2 py-1" href="study/numbers">Numbers</a>
                 </section>
             </article>
-            <article class="w-1/3 theme-secondary p-5 rounded-3xl">
+            <article class="w-2/3 md:w-1/3 theme-secondary p-5 rounded-3xl">
                 <h2>Exercises</h2>
                 <h3>Treine seus conhecimentos fazendo exercicios</h3>
                 <section class="flex flex-col space-y-3 p-5">

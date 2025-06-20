@@ -3,6 +3,11 @@
 <head>
     <x-head-meta/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    @env('local')
+        @vite('resources/js/study/numbers.js')
+    @else
+        <link rel="stylesheet" href="{{ secure_asset('build/assets/numbers-MEnvUg85.js') }}">
+    @endenv
 </head>
 <body>
     <x-header/>
