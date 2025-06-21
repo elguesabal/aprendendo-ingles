@@ -6,7 +6,7 @@
     @env('local')
         @vite('resources/js/study/numbers.js')
     @else
-        <link rel="stylesheet" href="{{ secure_asset('build/assets/numbers-MEnvUg85.js') }}">
+        <link rel="stylesheet" href="{{ secure_asset('build/assets/numbers.js') }}">
     @endenv
 </head>
 <body>

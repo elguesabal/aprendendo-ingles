@@ -6,7 +6,7 @@
     @env('local')
         @vite('resources/js/study/alphabetSound.js')
     @else
-        <link rel="stylesheet" href="{{ secure_asset('build/assets/alphabetSound-DS_kiarB.js') }}">
+        <link rel="stylesheet" href="{{ secure_asset('build/assets/alphabetSound.js') }}">
     @endenv
 </head>
 <body>

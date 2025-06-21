@@ -6,7 +6,7 @@
     @env('local')
         @vite('resources/js/exercises/UnjumbleIt.js')
     @else
-        <script type="module" src="{{ secure_asset('build/assets/UnjumbleIt-B7WdirCe.js') }}" defer></script>
+        <script type="module" src="{{ secure_asset('build/assets/UnjumbleIt.js') }}" defer></script>
     @endenv
 </head>
 <body>

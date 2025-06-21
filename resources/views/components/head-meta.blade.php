@@ -4,5 +4,5 @@
 @env('local')
     @vite('resources/css/app.css')
 @else
-    <link rel="stylesheet" href="{{ secure_asset('build/assets/app-CWVmMBLi.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('build/assets/app.css') }}">
 @endenv
