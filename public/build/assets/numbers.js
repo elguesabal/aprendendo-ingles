@@ -1,0 +1,1 @@
+function n(e){document.getElementById(String(e)).addEventListener("click",()=>{new Audio(`/assets/numbers/${String(e)}.mp3`).play()})}for(let e=0;e<=19;e++)n(e);for(let e=10;e<=90;e+=10)n(e);for(let e=100;e<=900;e+=100)n(e);for(let e=1e3;e<=9e3;e+=1e3)n(e);for(let e=1e4;e<=9e4;e+=1e4)n(e);

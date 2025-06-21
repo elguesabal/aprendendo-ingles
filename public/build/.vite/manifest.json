@@ -1,29 +1,29 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Dx1mW45S.css",
+    "file": "assets/app.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-T1DpEqax.js",
+    "file": "assets/app2.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/js/exercises/UnjumbleIt.js": {
-    "file": "assets/UnjumbleIt-B7WdirCe.js",
+    "file": "assets/UnjumbleIt.js",
     "name": "UnjumbleIt",
     "src": "resources/js/exercises/UnjumbleIt.js",
     "isEntry": true
   },
   "resources/js/study/alphabetSound.js": {
-    "file": "assets/alphabetSound-DS_kiarB.js",
+    "file": "assets/alphabetSound.js",
     "name": "alphabetSound",
     "src": "resources/js/study/alphabetSound.js",
     "isEntry": true
   },
   "resources/js/study/numbers.js": {
-    "file": "assets/numbers-MEnvUg85.js",
+    "file": "assets/numbers.js",
     "name": "numbers",
     "src": "resources/js/study/numbers.js",
     "isEntry": true

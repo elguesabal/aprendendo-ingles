@@ -5,10 +5,10 @@
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="text-xs md:text-lg">
         <h1 class="text-3xl font-bold mb-10 text-center">Pronouns</h1>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto mb-10">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Subject pronouns</h2>
                     <p>Subject pronouns (pronomes pessoais sujeito) são palavras que usamos para substituir o nome da pessoa, animal ou coisa que faz a ação da frase.</p>
@@ -16,7 +16,7 @@
                     <p>Sempre colocamos o subject pronoun no começo da frase, antes do verbo: [Subject Pronoun] + [verbo] + ...</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
@@ -83,7 +83,7 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Personal pronouns</h2>
                     <p>Pronomes pessoais são palavras que usamos para falar sobre pessoas ou coisas sem repetir o nome delas.</p>
@@ -92,7 +92,7 @@
                     <p>Em inglês, é a mesma ideia! Veja a tabela:</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
@@ -150,13 +150,13 @@
             </div>
         </article>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Object pronouns</h2>
                     <p>Object pronouns são usados para indicar quem recebe a ação do verbo em uma frase.</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Subject pronoun</th>

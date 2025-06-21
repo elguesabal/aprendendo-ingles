@@ -5,16 +5,16 @@
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="text-xs md:text-lg">
         <h1 class="text-3xl font-bold mb-10 text-center">Verb conjugation</h1>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto mb-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto mb-10">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">O que é “conjugar” um verbo?</h2>
                     <p>É adaptar o verbo de acordo com a pessoa do sujeito (I, you, he, etc.) e o tempo verbal (presente, passado, futuro...).</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Subject</th>
@@ -64,13 +64,13 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto mb-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto mb-10">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Agora, veja a forma negativa:</h2>
                     <p>Usamos do not ou does not + verbo (sem o -s).</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Subject</th>
@@ -120,7 +120,7 @@
             </div>
         </article>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto mb-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto mb-10">
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Regras:</h3>
                     <ul class="list-disc pl-6">

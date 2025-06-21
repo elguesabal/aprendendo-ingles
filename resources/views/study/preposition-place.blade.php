@@ -5,11 +5,11 @@
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="text-xs md:text-lg">
         <h1 class="text-3xl font-bold mb-10 text-center">Prepositions of place</h1>
         <article>
             <div class="theme-primary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">in → dentro de algo</h2>
                         <p>Usamos quando algo está dentro de um espaço fechado (sala, caixa, prédio, cidade, país).</p>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="theme-secondary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">on → em cima de algo (em contato)</h2>
                         <p>Usamos quando algo está sobre uma superfície, em contato direto com ela.</p>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="theme-primary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">behind → atrás de</h2>
                         <p>Usamos quando algo está atrás de algo.</p>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="theme-secondary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">in front of → na frente de</h2>
                         <p>Usamos quando algo está em frente de algo.</p>
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="theme-primary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">between → entre</h2>
                         <p>Usamos para indicar que algo está entre duas coisas.</p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="theme-secondary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">under → embaixo de</h2>
                         <p>Usamos para indicar que algo está abaixo de outro objeto, sem contato com o interior.</p>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="theme-primary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">next to → ao lado de</h2>
                         <p>Usamos para indicar que algo está ao lado.</p>
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="theme-secondary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">near → perto</h2>
                         <p>Usamos para indicar que algo está perto.</p>
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="theme-primary py-10">
-                <div class="flex flex-col w-3/4 mx-auto">
+                <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                     <section class="my-5">
                         <h2 class="text-3xl font-bold mb-2">far → longe</h2>
                         <p>Usamos para indicar que algo está longe.</p>

@@ -5,10 +5,10 @@
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="text-xs md:text-lg">
         <h1 class="text-3xl font-bold mb-10 text-center">Interrogative words</h1>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">O que são interrogative words?</h2>
                     <p>As interrogative words (ou question words) são palavras usadas para fazer perguntas.</p>
@@ -17,10 +17,10 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">As principais interrogative words:</h2>
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
@@ -67,9 +67,13 @@
                         </tbody>
                     </table>
                 </section>
+            </div>
+        </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">Outras combinações com how:</h2>
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
@@ -108,8 +112,8 @@
                 </section>
             </div>
         </article>
-        <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+        <article class="theme-secondary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-lg font-bold mb-2">Estrutura da pergunta com interrogative word:</h2>
                     <p>Interrogative + auxiliar + sujeito + verbo + complemento?</p>
@@ -121,8 +125,8 @@
                 </section>
             </div>
         </article>
-        <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-lg font-bold mb-2">Dica rápida para verbos no presente:</h2>
                     <ul class="list-disc pl-6">

@@ -5,10 +5,10 @@
 </head>
 <body>
     <x-header/>
-    <main>
+    <main class="text-xs md:text-lg">
         <h1 class="text-3xl font-bold mb-10 text-center">Plural</h1>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">O que é o plural?</h2>
                     <p>Em inglês, o plural serve para indicar mais de uma coisa (igual ao português).</p>
@@ -23,13 +23,13 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">1. Regra geral: adicione -S</h2>
                     <p>Essa é a regra mais comum.</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -59,13 +59,13 @@
             </div>
         </article>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">2. Palavras terminadas em -s, -ss, -sh, -ch, -x, -z</h2>
                     <p>Adicione -ES para facilitar a pronúncia.</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -99,13 +99,13 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">3. Palavras terminadas em consoante + Y</h2>
                     <p>Tira o Y e coloca -IES.</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -138,13 +138,13 @@
             </div>
         </article>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">4. Palavras terminadas em -f ou -fe</h2>
                     <p>Geralmente trocamos -f ou -fe por -ves</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -170,13 +170,13 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">5. Plurais irregulares (precisam ser memorizados)</h2>
                     <p>Algumas palavras mudam totalmente no plural:</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -218,13 +218,13 @@
             </div>
         </article>
         <article class="theme-primary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-2xl">Substantivos que não mudam no plural</h2>
                     <p>Algumas palavras são iguais no singular e no plural:</p>
                 </section>
                 <section class="my-5">
-                    <table class="mx-auto table-fixed w-3/4 border-collapse border text-center">
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
                             <tr>
                                 <th class="w-1/2 border border-gray-300 px-4 py-2">Singular</th>
@@ -250,7 +250,7 @@
             </div>
         </article>
         <article class="theme-secondary py-10">
-            <div class="flex flex-col w-3/4 mx-auto">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Exemplo de frases:</h3>
                     <ul class="list-disc pl-6">
