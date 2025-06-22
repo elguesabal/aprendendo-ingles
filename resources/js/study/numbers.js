@@ -23,3 +23,9 @@ for (let number = 1000; number <= 9000; number += 1000) {
 for (let number = 10000; number <= 90000; number += 10000) {
     eventSound(number);
 }
+
+eventSound("hundred");
+eventSound("thousand");
+eventSound("million");
+eventSound("billion");
+eventSound("trillion");

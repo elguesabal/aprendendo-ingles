@@ -3,11 +3,7 @@
 <head>
     <x-head-meta/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    @env('local')
-        @vite('resources/js/study/numbers.js')
-    @else
-        <link rel="stylesheet" href="{{ secure_asset('build/assets/numbers.js') }}">
-    @endenv
+    @vite('resources/js/study/numbers.js')
 </head>
 <body>
     <x-header/>
@@ -499,6 +495,69 @@
                         <li><strong>80.020</strong> -> eighty thousand and twenty</li>
                         <li><strong>90.999</strong> -> ninety thousand nine hundred and ninety-nine</li>
                         <li><strong>12.464</strong> -> twelve thousand four hundred and sixty-four</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+        <article class="theme-secondary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
+                <section class="my-5">
+                    <h2 class="text-3xl font-bold mb-2">Resumo dos nomes</h2>
+                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
+                        <thead>
+                            <tr>
+                                <th class="w-1/2 border border-gray-300 px-4 py-2">Number</th>
+                                <th class="w-1/2 border border-gray-300 px-4 py-2">Name</th>
+                                <th class="w-1/2 border border-gray-300 px-4 py-2">Sound</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2">100</td>
+                                <td class="border border-gray-300 px-4 py-2">hundred</td>
+                                <td id="hundred" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2">1.000</td>
+                                <td class="border border-gray-300 px-4 py-2">thousand</td>
+                                <td id="thousand" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2">1.000.000</td>
+                                <td class="border border-gray-300 px-4 py-2">million</td>
+                                <td id="million" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2">1.000.000.000</td>
+                                <td class="border border-gray-300 px-4 py-2">billion</td>
+                                <td id="billion" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2">1.000.000.000.000</td>
+                                <td class="border border-gray-300 px-4 py-2">trillion</td>
+                                <td id="trillion" class="border border-gray-300 px-4 py-2 cursor-pointer"><i class="bi bi-volume-up-fill"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
+                <section class="my-5">
+                    <h2 class="text-lg font-bold mb-2">Regra para montar os números</h2>
+                    <p>Estrutura: [trilhão] + trillion + [bilhão] + billion + [milhão] + million + [milhar] + thousand + [centena] + and + [resto do número]</p>
+                    <h2 class="text-lg font-bold mb-2">Exemplos:</h2>
+                    <ul class="list-disc pl-6">
+                   <!-- <li><strong>3.245.789</strong> -> three million two thousand for-five seven hundred and eighty-nine</li> -->
+                        <li><strong>3.245.789</strong> -> three million two hundred forty-five thousand seven hundred eighty-nine</li>
+                   <!-- <li><strong>20.500.100</strong> -> twenty million five thousand one hundred</li> -->
+                        <li><strong>20.500.100</strong> -> twenty million five hundred thousand one hundred</li>
+                   <!-- <li><strong>1.700.200.000</strong> -> one billion seven thousand two hundred</li> -->
+                        <li><strong>1.700.200.000</strong> -> one billion seven hundred million two hundred thousand</li>
+                   <!-- <li><strong>30.405.000.150</strong> -> thirty billion four thousand one hundred and fifty</li> -->
+                        <li><strong>30.405.000.150</strong> -> thirty billion four hundred five million one hundred fifty</li>
+                        <li><strong>500.000.000.000.000</strong> -> five trillion</li>
                     </ul>
                 </section>
             </div>

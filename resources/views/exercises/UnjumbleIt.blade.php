@@ -3,11 +3,7 @@
 <head>
     <x-head-meta/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    @env('local')
-        @vite('resources/js/exercises/UnjumbleIt.js')
-    @else
-        <script type="module" src="{{ secure_asset('build/assets/UnjumbleIt.js') }}" defer></script>
-    @endenv
+    @vite('resources/js/exercises/UnjumbleIt.js')
 </head>
 <body>
     <x-header/>
