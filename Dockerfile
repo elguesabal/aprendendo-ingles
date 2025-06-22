@@ -41,6 +41,11 @@ RUN php artisan config:cache
 RUN php artisan route:clear
 RUN php artisan view:clear
 
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+RUN apt install -y nodejs
+RUN npm install
+RUN npm run build
+
 # Expõe a porta padrão do Apache
 EXPOSE 80
 
