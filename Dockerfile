@@ -37,10 +37,12 @@ RUN php artisan key:generate
 # Permissões para o Laravel
 RUN chown -R www-data:www-data storage bootstrap/cache
 
+# Limpa o cache
 RUN php artisan config:cache
 RUN php artisan route:clear
 RUN php artisan view:clear
 
+# Instala o node e cria o build do front end
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 RUN apt install -y nodejs
 RUN npm install
