@@ -15,6 +15,10 @@
                     <p>Em português, são palavras como: eu, você, ele, ela, nós, eles...</p>
                     <p>Sempre colocamos o subject pronoun no começo da frase, antes do verbo: [Subject Pronoun] + [verbo] + ...</p>
                 </section>
+            </div>
+        </article>
+        <article class="theme-secondary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto mb-10">
                 <section class="my-5">
                     <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
                         <thead>
@@ -59,6 +63,10 @@
                         </tbody>
                     </table>
                 </section>
+            </div>
+        </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Dicas importantes:</h3>
                     <ul class="list-disc pl-6">
@@ -74,7 +82,7 @@
                         <li><strong>You are nice.</strong> -> Você é legal.</li>
                         <li><strong>He is a teacher.</strong> -> Ele é professor.</li>
                         <li><strong>She is my friend.</strong> -> Ela é minha amiga.</li>
-                        <li><strong>It is a cat.</strong> -> É um gato. (coisa/animal)</li>
+                        <li><strong>It is a cat.</strong> -> É um gato.</li>
                         <li><strong>We are students.</strong> -> Nós somos estudantes.</li>
                         <li><strong>You are welcome.</strong> -> Vocês são bem-vindos.</li>
                         <li><strong>They are tired.</strong> -> Eles estão cansados.</li>
@@ -135,6 +143,10 @@
                         </tbody>
                     </table>
                 </section>
+            </div>
+        </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Exemplos de frases simples:</h3>
                     <ul class="list-disc pl-6">
@@ -149,7 +161,7 @@
                 </section>
             </div>
         </article>
-        <article class="theme-primary py-10">
+        <article class="theme-secondary py-10">
             <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h2 class="text-3xl font-bold mb-2">Object pronouns</h2>
@@ -208,6 +220,10 @@
                         </tbody>
                     </table>
                 </section>
+            </div>
+        </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Dicas importantes:</h3>
                     <ul class="list-disc pl-6">

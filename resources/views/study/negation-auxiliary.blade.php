@@ -74,7 +74,7 @@
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Exemplos de frases simples com "does not" / "doesn't" (para he, she, it):</h3>
                     <ul class="list-disc pl-6">
-                        <li><strong>.</strong>He doesn't work here. -> Ele não trabalha aqui.</li>
+                        <li><strong>He doesn't work here.</strong> -> Ele não trabalha aqui.</li>
                         <li><strong>She doens't like coffe.</strong> -> Ela não gosta de café.</li>
                         <li><strong>It doesn't move.</strong> -> Isto não se move.</li>
                     </ul>
@@ -82,8 +82,8 @@
                 <section class="my-5">
                     <h3 class="text-lg font-bold mb-2">Importante:</h3>
                     <p>Quando você usa doesn’t, o verbo principal volta para a forma base (sem "s").</p>
-                    <p>Errado: She doesn’t likes chocolate.</p>
-                    <p>Certo: She doesn’t like chocolate.</p>
+                    <p><strong>Errado:</strong>  She doesn’t likes chocolate.</p>
+                    <p><strong>Certo:</strong>  She doesn’t like chocolate.</p>
                 </section>
             </div>
         </article>

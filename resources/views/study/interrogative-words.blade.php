@@ -72,49 +72,6 @@
         <article class="theme-primary py-10">
             <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-2xl">Outras combinações com how:</h2>
-                    <table class="mx-auto table-fixed w-full md:w-3/4 border-collapse border text-center">
-                        <thead>
-                            <tr>
-                                <th class="w-1/2 border border-gray-300 px-4 py-2">Inglês</th>
-                                <th class="w-1/2 border border-gray-300 px-4 py-2">Português</th>
-                                <th class="w-1/2 border border-gray-300 px-4 py-2">Example</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="hover:bg-gray-50">
-                                <td class="border border-gray-300 px-4 py-2">How much</td>
-                                <td class="border border-gray-300 px-4 py-2">Quanto (incontável)</td>
-                                <td class="border border-gray-300 px-4 py-2">How much is it?</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="border border-gray-300 px-4 py-2">How many</td>
-                                <td class="border border-gray-300 px-4 py-2">Quantos/as (contável)</td>
-                                <td class="border border-gray-300 px-4 py-2">How many books do you have?</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="border border-gray-300 px-4 py-2">How long</td>
-                                <td class="border border-gray-300 px-4 py-2">Quanto tempo</td>
-                                <td class="border border-gray-300 px-4 py-2">How long is the movie?</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="border border-gray-300 px-4 py-2">How old</td>
-                                <td class="border border-gray-300 px-4 py-2">Quantos anos</td>
-                                <td class="border border-gray-300 px-4 py-2">How old are you?</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="border border-gray-300 px-4 py-2">How far</td>
-                                <td class="border border-gray-300 px-4 py-2">Quão longe</td>
-                                <td class="border border-gray-300 px-4 py-2">How far is your house?</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </article>
-        <article class="theme-secondary py-10">
-            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
-                <section class="my-5">
                     <h2 class="text-lg font-bold mb-2">Estrutura da pergunta com interrogative word:</h2>
                     <p>Interrogative + auxiliar + sujeito + verbo + complemento?</p>
                     <ul class="list-disc pl-6">
@@ -125,10 +82,10 @@
                 </section>
             </div>
         </article>
-        <article class="theme-primary py-10">
+        <article class="theme-secondary py-10">
             <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
                 <section class="my-5">
-                    <h2 class="text-lg font-bold mb-2">Dica rápida para verbos no presente:</h2>
+                    <h2 class="text-lg font-bold mb-2">Exemplos para verbos no presente:</h2>
                     <ul class="list-disc pl-6">
                         <li><strong>What is this?</strong> -> O que é isso?</li>
                         <li><strong>Where are you from?</strong> -> De onde voçê é?</li>
