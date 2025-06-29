@@ -122,6 +122,13 @@
                 </section>
             </div>
         </article>
+        <article class="theme-primary py-10">
+            <div class="flex flex-col w-4/5 md:w-3/4 mx-auto">
+                <section class="my-5">
+                    <p>Consulte sobre as <a class="underline p-1 border-2" href="interrogative-words">Interrogative words</a> para maior clareza.</p>
+                </section>
+            </div>
+        </article>
     </main>
     <x-footer/>
 </body>

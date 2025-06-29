@@ -22,7 +22,6 @@
                     <a class="text-center border-3 px-2 py-1" href="study/alphabet-pronunciation">Alphabet pronunciation</a>
                     <a class="text-center border-3 px-2 py-1" href="study/preposition-place">Preposition of place</a>
                     <a class="text-center border-3 px-2 py-1" href="study/numbers">Numbers</a>
-                    <a class="text-center border-3 px-2 py-1" href="study/interrogative-sentences">interrogative sentences</a>
                     <a class="text-center border-3 px-2 py-1" href="study/auxiliary-verbs">Auxiliary verbs</a>
                 </section>
             </article>
