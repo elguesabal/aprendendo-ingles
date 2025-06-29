@@ -27,6 +27,7 @@ Route::view("study/alphabet-pronunciation", "study/alphabet-pronunciation");
 Route::view("study/preposition-place", "study/preposition-place");
 Route::view("study/numbers", "study/numbers");
 Route::view("study/auxiliary-verbs", "study/auxiliary-verbs");
+Route::view("study/do", "study/do");
 
 // Exercises
 Route::view("exercises/UnjumbleIt", "exercises/UnjumbleIt");

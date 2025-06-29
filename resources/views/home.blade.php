@@ -23,6 +23,7 @@
                     <a class="text-center border-3 px-2 py-1" href="study/preposition-place">Preposition of place</a>
                     <a class="text-center border-3 px-2 py-1" href="study/numbers">Numbers</a>
                     <a class="text-center border-3 px-2 py-1" href="study/auxiliary-verbs">Auxiliary verbs</a>
+                    <a class="text-center border-3 px-2 py-1" href="study/do">do</a>
                 </section>
             </article>
             <article class="w-4/5 md:w-1/3 theme-secondary p-5 rounded-3xl">
